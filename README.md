@@ -1,6 +1,12 @@
 # matic-cocos-starter-kit
 
-A Game Tutorial built with Cocos2D and Matic.Net, to democratize modern blockchain game with Matic.
+A Game Tutorial built with Cocos2D and matic.js, to democratize modern blockchain game with Matic.
+
+## Set Up Environment
+
+1. Install Cocos Creator from https://www.cocos.com/creator
+1. Download this tutorial project into your local workspace.
+1. Open the tutorial projects in Cocos Creator, and run the projects with Browser mode to start the games. 
 
 
 ## Level 1: A Basic Matic Demo with Matic.Net and Cocos2D
