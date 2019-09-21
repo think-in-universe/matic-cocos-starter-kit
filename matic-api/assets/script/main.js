@@ -49,6 +49,18 @@ cc.Class({
         depositButton: {
             default: null,
             type: cc.Button
+        },
+        transferAddressInputText: {
+            default: null,
+            type: cc.Label
+        },
+        transferAmountInputText: {
+            default: null,
+            type: cc.Label
+        },
+        transferButton: {
+            default: null,
+            type: cc.Button
         }
     },
 
@@ -68,6 +80,7 @@ cc.Class({
         this.onCheckBalance();
 
         this.depositButton.node.on('click', this.onDepositToken, this);
+        this.transferButton.node.on('click', this.onTransferToken, this);
     },
 
     // update (dt) {},
@@ -134,6 +147,32 @@ cc.Class({
                 })
             })
 
+    },
+
+    onTransferToken(element) {
+        const token = config.MATIC_TEST_TOKEN; // test token address
+        const recipient = this.transferAddressInputText.string; // address
+        const amount = this.transferAmountInputText.string; // amount in wei
+        const from = config.FROM_ADDRESS; // from address
+
+        // disable button
+        element.interactable = false;
+
+        this.matic.transferTokens(token, recipient, amount, {
+            from,
+            // parent: true, // For token transfer on Main network (false for Matic Network)
+            onTransactionHash: (hash) => {
+                // action on Transaction success
+                console.log(hash) // eslint-disable-line
+            },
+            onReceipt: (receipt) => {
+                console.log(receipt);
+                setTimeout(() => {
+                    element.interactable = true;
+                    this.onCheckBalance();
+                }, 5000);
+            }
+        })
     },
 
     updateBalance() {
