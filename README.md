@@ -1,4 +1,4 @@
-# matic-cocos-starter-kit
+# Matic Cocos Starter Kit
 
 A Game Tutorial built with Cocos2D and matic.js, to democratize modern blockchain game with Matic.
 
@@ -9,7 +9,7 @@ A Game Tutorial built with Cocos2D and matic.js, to democratize modern blockchai
 1. Open the tutorial projects in Cocos Creator, and run the projects with Browser mode to start the games. 
 
 
-## Level 1: A Basic Matic Demo with Matic.Net and Cocos2D
+## Level 1: A Basic Matic Demo with Matic and Cocos2D
 
 A Cocos2D demo built with Cocos Creator that demostrates how to get balance, deposit to child chain, transfer in Matic child chain, withdraw to parent chain, etc.
 
