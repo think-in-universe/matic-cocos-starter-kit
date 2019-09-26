@@ -1,0 +1,3 @@
+[submodule "matic-api/packages/matic"]
+	path = matic-api/packages/matic
+	url = https://github.com/think-in-universe/matic-cocos-creator

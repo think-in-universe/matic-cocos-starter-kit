@@ -8,10 +8,8 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-const Matic = require('../matic/matic');
-const config = require('./config');
 
-// console.log("Matic", Matic);
+const config = require('./config');
 
 
 cc.Class({

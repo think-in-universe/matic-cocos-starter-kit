@@ -1,7 +1,6 @@
 # cocos cretor
 library/
 local/
-packages/
 temp/
 build/
 *.meta
