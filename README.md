@@ -25,7 +25,7 @@ Follow the below steps to set up environment of Matic + Cocos Creator.
 1. For a sample project, install [Matic Plugin for Cocos Creator](https://github.com/think-in-universe/matic-cocos-creator), by following the instructions in the Matic plugin project's documentation.
 1. Open the tutorial projects in Cocos Creator, and run the projects with Browser mode to launch the games.
 
-### Level 1: A Basic Matic Demo with Matic and Cocos2D
+### Level 1: A Mini Wallet with Matic and Cocos2D
 
 A Cocos2D demo built with Cocos Creator that demostrates how to get balance, deposit to child chain, transfer in Matic child chain, withdraw to parent chain, etc.
 
