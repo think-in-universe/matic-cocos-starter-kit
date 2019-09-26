@@ -4,9 +4,10 @@ A Game Tutorial built with Cocos2D and matic.js, to democratize modern blockchai
 
 ## Set Up Environment
 
-1. Install Cocos Creator from https://www.cocos.com/creator
+1. Install Cocos Creator from https://www.cocos.com/creator (2.0+ preferred) if you haven't done yet
 1. Download this tutorial project into your local workspace.
-1. Open the tutorial projects in Cocos Creator, and run the projects with Browser mode to start the games.
+1. For a sample project, install [Matic Plugin for Cocos Creator](https://github.com/think-in-universe/matic-cocos-creator) following the instructions for your project if it's not done yet. Usually the sample project should have included the Matic plugin.
+1. Open the tutorial projects in Cocos Creator, and run the projects with Browser mode to launch the games.
 
 
 ## Level 1: A Basic Matic Demo with Matic and Cocos2D
